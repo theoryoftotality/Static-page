@@ -1,0 +1,183 @@
+.header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    padding-top: 20px;
+}
+
+.line {
+    border-bottom: 2px solid red;
+    width: 1200px;
+}
+
+.box {
+    width: 1200px;
+    height: 520px;
+    border: solid 1px #6666;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.introduce {
+    width: 1199px;
+    height: 44px;
+    background-color: #cecece;
+    line-height: 44px;
+    font-size: 1.2em;
+    padding: 0px 15px;
+}
+
+.fl {
+    float: left;
+}
+
+.introduce>.fr {
+    float: right;
+    font-size: 14px;
+}
+
+.login {
+    color: red;
+}
+
+.good {
+    width: 600px;
+    height: 368px;
+    margin: 50px auto 0px;
+}
+
+.zhuce {
+    width: 600px;
+    height: 368px;
+    color: #666;
+    font-size: 14px;
+}
+
+label {
+    width: 88px;
+    display: inline-block;
+    text-align: right;
+}
+
+input {
+    width: 240px;
+    height: 36px;
+    color: #666;
+}
+
+.zhuce>li {
+    margin-bottom: 20px;
+}
+
+.i {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: -3px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.safe {
+    padding-left: 170px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+span {
+    font-size: 12px;
+}
+
+em {
+    font-size: 12px;
+}
+
+.ruo,
+.zhong,
+.qiang {
+    width: 22px;
+    height: 16px;
+    padding: 0px 12px;
+    color: white;
+}
+
+.ruo {
+    background-color: red;
+}
+
+.zhong {
+    background-color: green;
+}
+
+.qiang {
+    background-color: orange;
+}
+
+.only {
+    width: 15px;
+    height: 15px;
+    vertical-align: top;
+    margin-top: 3px;
+}
+
+.last {
+    color: #1ba1e6;
+    font-size: 12px;
+}
+
+.footer {
+    margin-top: 30px;
+    display: block;
+    width: 200px;
+    height: 35px;
+    background-color: #C81623;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    font-size: 16px;
+    margin-left: 10%;
+}
+
+.gg {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+.ul {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.ul>li {
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    color: #666;
+}
+
+.ul>li:nth-child(even) {
+    margin: 0px 3px;
+}
+
+.house {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+
+p {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}

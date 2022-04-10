@@ -1,0 +1,427 @@
+.top {
+    width: 100%;
+    height: 30px;
+    background-color: #f1f1f1;
+    margin: 0 auto;
+}
+
+.head {
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.head li {
+    font-size: 12px;
+    line-height: 30px;
+    color: #666666;
+}
+
+.tl {
+    float: left;
+}
+
+.tl>li {
+    display: inline-block;
+    padding: 0px 2px;
+}
+
+a {
+    color: #666666;
+}
+
+#red {
+    color: red;
+}
+
+.tr {
+    float: right;
+}
+
+.tr>li {
+    display: inline-block;
+}
+
+.tr>li:nth-child(even) {
+    margin-bottom: 1px;
+    padding: 0px 13px;
+}
+
+.box {
+    position: relative;
+    width: 1200px;
+    height: 105px;
+    margin: 0 auto;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+}
+
+.nav {
+    top: 27px;
+    right: 400px;
+    position: absolute;
+}
+
+input {
+    width: 455px;
+    height: 35px;
+    border: 2px solid #B1191b;
+    padding: 0 4px;
+}
+
+button {
+    position: absolute;
+    width: 80px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    background-color: #b1191b;
+    color: white;
+}
+
+.hotword {
+    position: absolute;
+    top: 70px;
+    right: 380px;
+}
+
+.hotword>li {
+    float: left;
+    font-size: 12px;
+    top: 25px;
+    right: 200px;
+    display: inline;
+    padding: 0 12px;
+}
+
+.code>a {
+    color: #B1191b
+}
+
+.gouwu {
+    position: absolute;
+    right: 70px;
+    top: 27px;
+    width: 140px;
+    height: 35px;
+    background-color: #F7F7F7;
+    border: 1px solid #b1b1b1;
+    color: #666666;
+    font-size: 13px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.gouwu::before {
+    content: '<';
+}
+
+.gouwu::after {
+    content: '>';
+}
+
+.gouwu>i {
+    position: absolute;
+    top: -10px;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 7px 7px 7px 0;
+    text-align: center;
+    line-height: 15px;
+    padding: 0 2px;
+    color: white;
+}
+
+.analytical {
+    width: 1200px;
+    height: 45px;
+    margin: 0 auto;
+}
+
+.analytical li>a {
+    display: block;
+    float: left;
+    line-height: 45px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.frs {
+    display: block;
+    float: left;
+    width: 220px;
+    height: 45px;
+    background-color: #B1191b;
+    text-align: center;
+    line-height: 45px;
+    color: white;
+    margin-right: 15px;
+}
+
+.line {
+    width: 100%;
+    border-bottom: 2px solid #b1191b;
+    /* 底部分割线 */
+}
+
+.analytical li>a:hover {
+    color: #B1191b;
+}
+
+.sell {
+    width: 1200px;
+    height: 465px;
+    margin: 0 auto;
+}
+
+.sf {
+    float: left;
+    width: 220px;
+    height: 465px;
+    background-color: #b11;
+}
+
+.ul li>a {
+    display: block;
+    font-size: 14px;
+    color: white;
+    padding: 5.8px;
+}
+
+.ul li a::after {
+    content: '>';
+    float: right;
+}
+
+.lf {
+    padding-top: 8px
+}
+
+.ul a:hover {
+    color: #B1191b;
+    background-color: white;
+}
+
+.sc {
+    float: left;
+    width: 750px;
+    height: 465px;
+}
+
+.sc a>img {
+    width: 720px;
+    height: 450px;
+    margin: 15px 15px 0px 15px;
+}
+
+.sr {
+    float: right;
+    width: 230px;
+    height: 465px;
+}
+
+.st {
+    width: 230px;
+    height: 35px;
+    border: #b1b1b1 solid 1px;
+    border-bottom: 1px #b1b1b1 dashed;
+    line-height: 35px;
+    padding-left: 8px;
+}
+
+h5 {
+    color: #666666;
+}
+
+.st a {
+    color: #666666;
+    float: right;
+    font-size: 13px;
+    margin-right: 16px;
+}
+
+.st a::after {
+    content: '>'
+}
+
+.sm {
+    width: 230px;
+    height: 130px;
+    border: solid 1px #b1b1b1;
+    border-top: none;
+}
+
+.um {
+    width: 230px;
+    height: 130px;
+}
+
+.um>li {
+    overflow: hidden;
+    font-size: 13px;
+    float: left;
+    white-space: nowrap;
+    padding: 4.5px 8px;
+    color: #666666;
+}
+
+.um h5 {
+    float: left;
+    font-size: 13px;
+}
+
+.sd {
+    width: 230px;
+    height: 210px;
+}
+
+.vl {
+    float: left;
+    width: 57.5px;
+    height: 70px;
+    border: 1px solid #b1b1b1;
+    text-align: center;
+    font-size: 12px;
+}
+
+.vl>i {
+    display: inline-block;
+    width: 23px;
+    height: 28px;
+    margin-top: 12px;
+}
+
+.ss img {
+    margin-top: 15px;
+    width: 230px;
+    height: 76px;
+}
+
+.shangping {
+    width: 1200px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+.w {
+    margin-top: 15px;
+}
+
+.icon {
+    width: 240px;
+    height: 160px;
+    float: left;
+    text-align: center;
+    background-color: #666666;
+}
+
+.irg {
+    width: 960px;
+    height: 160px;
+    float: left;
+    background-color: green;
+}
+
+.irg li {
+    float: left;
+}
+
+.irg li img {
+    width: 240px;
+    height: 160px;
+}
+
+.footer {
+    padding-top: 15px;
+    background-color: #F5F5F5;
+    height: 385px;
+}
+
+.baozhang {
+    margin: 0 auto;
+    width: 1200px;
+    height: 120px;
+    border-bottom: 1px solid #ccc;
+}
+
+.bz>li {
+    float: left;
+    margin: 30px 60px;
+}
+
+.bz p {
+    font-size: 13px;
+}
+
+.last {
+    width: 1200px;
+    height: 190px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.end {
+    padding: 20px 50px;
+    float: left;
+    width: 200px;
+}
+
+.end>li {
+    color: #666666;
+    font-size: 12px;
+    padding: 2px;
+}
+
+.end>.spa {
+    font-size: 1em;
+    color: #666666;
+    z-index: 3;
+}
+
+.end a:hover {
+    color: #B1191b;
+}
+
+.last h2 {
+    padding-top: 20px;
+    color: #666666;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.last .ghbj li {
+    font-size: 12px;
+    text-align: center;
+}
+
+.only {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.only li {
+    display: inline-block;
+    font-size: 12px;
+    color: #666666;
+}
+
+.only li:nth-child(even) {
+    font-size: 14px;
+    padding: 0px 4px;
+}
+
+.only div {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #666666;
+}
+
+p {
+    font-size: 12px;
+    color: #666666;
+}
